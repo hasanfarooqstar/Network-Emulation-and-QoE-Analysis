@@ -1,0 +1,44 @@
+Assignment 4:
+Based on the previous assignments, integrate a network emulation (e.g., dummynet, wondershaper, mininet, mahimahi, … to name a few) to control the bandwidth based on predefined bandwidth traces (i.e., either synthetic or real traces from, e.g., mobile networks) to demonstrate the effect of adaptive streaming. Therefore, identify and collect various metrics that impact the end user’s Quality of Experience (QoE). Based on these metrics, identify and calculate a combined QoE metric (e.g., ITU-T P.1203 or ITU-T P.1204). Document your findings and results.
+
+Relevant readings are as follows:
+M. Seufert et al., A Survey on Quality of Experience of HTTP Adaptive Streaming
+W. Robitza et al., HTTP adaptive streaming QoE estimation with ITU-T rec. P. 1203: open databases and software
+A. Raake et al., Multi-model standard for bitstream-, pixel-based and hybrid video quality assessment of UHD/4K: ITU-T P. 1204
+
+Possible useful tools (for bandwidth throttling within the browser according to the given network profile):
+https://github.com/twitchtv/acm-mmsys-2020-grand-challenge
+https://developer.chrome.com/docs/puppeteer/
+https://chromedevtools.github.io/devtools-protocol/tot/Network/#method-emulateNetworkConditions
+
+Deliverable: presentation (slides) of about 10min + 5min Q&A in a virtual class
+
+
+
+Based on the previous assignments:
+
+Assignment 1:
+
+Encode selected test sequences (e.g., based on different genres) with AVC, HEVC, VP9, AV1, or/and VVC using different encoding parameters (e.g., resolution, bitrate) and determine encoding time as well as quality (e.g., PSNR, VMAF, etc.).
+Select appropriate test sequences for the encoding. Please discuss among each other which one you would like to select as we want to have results comparable across each codec.
+Research appropriate software for encoding and install/test it on your local computer.
+Determine suitable encoding configuration incl. resolutions and bitrates (bitrate ladder).
+Encode test sequences using the given encoding software and configuration
+Measure encoding time and determine the quality (if not provided by encoding software).
+
+Deliverable: presentation (slides) of about 10min + 5min Q&A
+
+
+
+Assignment 2:
+Set up an HTTP Server and provide a simple Web site that enables progressive download of your test sequences (e.g., link the highest quality representation only), i.e., no dynamic adaptive streaming yet. Use HTML5 and the <video> tag. Test your progressive download under different network conditions (e.g., use developer tools of your browser and experiment with different bandwidth throttling profiles). Document your experiment and findings. 
+
+
+Reading 2 / Assignment 3:
+MPEG-DASH: there are two overview articles available in Moodle, and I recommend you all read these two articles. One is a bit shorter, and probably you should start with this one.
+DASH-overview-1: Thomas Stockhammer. 2011. Dynamic adaptive streaming over HTTP --: standards and design principles. In Proceedings of the second annual ACM conference on Multimedia systems (MMSys '11). Association for Computing Machinery, New York, NY, USA, 133–144. https://doi.org/10.1145/1943552.1943572
+DASH-overview-2: I. Sodagar, "The MPEG-DASH Standard for Multimedia Streaming Over the Internet," in IEEE MultiMedia, vol. 18, no. 4, pp. 62-67, April 2011, doi: 10.1109/MMUL.2011.71.
+
+Produce a manifest (e.g., DASH MPD) for your test sequences/bitrate ladder (i.e., a number of bitrate-resolution pairs) according to Assignment 1. Upload your test sequences, including the manifest, to your Web site from Assignment 2. Select a DASH client (e.g., dash.js, shaka player) and integrate it with your Web site allowing for dynamic adaptive streaming over HTTP. Test your dynamic adaptive streaming over HTTP under different network conditions (e.g., use developer tools of your browser and experiment with different bandwidth throttling profiles). Document your experiment and findings.
+
+Deliverable: presentation (slides) of about 10min + 5min Q&A
