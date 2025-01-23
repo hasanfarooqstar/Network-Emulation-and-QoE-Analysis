@@ -1,0 +1,16 @@
+{
+  "name": "network-emulation-and-qoe-analysis",
+  "version": "1.0.0",
+  "description": "This repository contains the implementation and results of **Assignment 4**, which is part of a series of assignments focusing on multimedia streaming and adaptive streaming techniques. The project integrates network emulation tools to simulate varying bandwidth conditions and evaluates their effect on adaptive streaming and the end-user’s Quality of Experience (QoE). 🚀",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "puppeteer": "^24.1.0"
+  }
+}

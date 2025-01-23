@@ -1,3 +1,62 @@
+Here’s an improved and polished version of your README section in markdown format with added clarity, structure, and some emojis for a friendly and engaging feel:
+
+````markdown
+# 🚀 How to Run the Project
+
+Follow these simple steps to set up and run the project:
+
+## 1️⃣ Install Dependencies
+
+First, install all required Node.js packages by running the following command:
+
+```bash
+npm install
+```
+````
+
+## 2️⃣ Start the Project
+
+Once the dependencies are installed, start the application with:
+
+```bash
+npm run
+```
+
+## 3️⃣ Simulate Network Conditions
+
+To simulate network conditions, run the network emulation script:
+
+```bash
+node network.js
+```
+
+Alternatively, to simulate Quality of Experience (QoE) metrics, run the following:
+
+```bash
+node emulate.js
+```
+
+## 4️⃣ Monitor QoE Metrics
+
+After starting playback, open your browser’s Developer Tools:
+
+- **Windows/Linux**: Press `CTRL + SHIFT + I`
+- **Mac**: Press `CMD + OPTION + I`
+
+Navigate to the **Console** tab to view the logged QoE metrics such as:
+
+- Startup delay
+- Buffering events
+- Bitrate switches
+
+By following these steps, you’ll successfully set up, run, and monitor the project. 🎉
+
+Happy coding! 😎
+
+````
+
+Let me know if you'd like any further adjustments or additional sections!
+-------------------
 # 📡 Assignment 4: Adaptive Streaming with Network Emulation and QoE Analysis
 
 This repository contains the implementation and results of **Assignment 4**, which is part of a series of assignments focusing on multimedia streaming and adaptive streaming techniques. The project integrates network emulation tools to simulate varying bandwidth conditions and evaluates their effect on adaptive streaming and the end-user’s Quality of Experience (QoE). 🚀
@@ -8,9 +67,9 @@ This repository contains the implementation and results of **Assignment 4**, whi
 
 Building on the foundations from **Assignments 1–3**, this assignment aims to:
 
-1. **Integrate Network Emulation**: Use tools like `dummynet`, `wondershaper`, `mininet`, or `mahimahi` to simulate different bandwidth conditions based on predefined bandwidth traces. These traces could be either synthetic or real (e.g., traces from mobile networks).  
-2. **Demonstrate Adaptive Streaming**: Showcase the impact of bandwidth variations on adaptive streaming systems using the MPEG-DASH protocol.  
-3. **Measure QoE Metrics**: Identify and collect various metrics impacting QoE (e.g., video stalling, resolution changes, startup delay). Calculate a combined QoE metric using ITU-T P.1203 or ITU-T P.1204 standards.  
+1. **Integrate Network Emulation**: Use tools like `dummynet`, `wondershaper`, `mininet`, or `mahimahi` to simulate different bandwidth conditions based on predefined bandwidth traces. These traces could be either synthetic or real (e.g., traces from mobile networks).
+2. **Demonstrate Adaptive Streaming**: Showcase the impact of bandwidth variations on adaptive streaming systems using the MPEG-DASH protocol.
+3. **Measure QoE Metrics**: Identify and collect various metrics impacting QoE (e.g., video stalling, resolution changes, startup delay). Calculate a combined QoE metric using ITU-T P.1203 or ITU-T P.1204 standards.
 4. **Document Results**: Analyze the findings and results, focusing on the QoE under different bandwidth scenarios.
 
 ---
@@ -125,7 +184,8 @@ The following tools and technologies are used for this assignment:
    ```bash
    git clone https://github.com/your-repo/adaptive-streaming-qoe.git
    cd adaptive-streaming-qoe
-   ```
+````
+
 2. Follow the instructions in the `setup.md` file for configuring network emulation tools and the MPEG-DASH client.
 3. Run the experiments as outlined in the documentation.
 
