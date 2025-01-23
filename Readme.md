@@ -201,7 +201,7 @@ The following tools and technologies are used for this assignment:
 
 ---
 
-## 🏆 Acknowledgments
+# Acknowledgments
 
 This project is part of a multimedia streaming course and is based on theoretical and practical foundations in video encoding, adaptive streaming, and Quality of Experience (QoE) assessment. Special thanks to the authors of the referenced readings and tools.
 
