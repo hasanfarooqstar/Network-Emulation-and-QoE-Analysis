@@ -56,7 +56,7 @@ Happy coding! 😎
 ````
 
 Let me know if you'd like any further adjustments or additional sections!
--------------------
+
 # 📡 Assignment 4: Adaptive Streaming with Network Emulation and QoE Analysis
 
 This repository contains the implementation and results of **Assignment 4**, which is part of a series of assignments focusing on multimedia streaming and adaptive streaming techniques. The project integrates network emulation tools to simulate varying bandwidth conditions and evaluates their effect on adaptive streaming and the end-user’s Quality of Experience (QoE). 🚀
